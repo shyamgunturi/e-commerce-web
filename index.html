@@ -1,0 +1,70 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Laptop Store</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#products">Laptops</a>
+                <a href="#videos">Videos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h2>Discover the Latest Laptops</h2>
+                <p>Find the perfect laptop for your needs.</p>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container">
+                <h2>Our Laptops</h2>
+                <div class="product-grid">
+                    <!-- Laptop products will be injected here by JavaScript -->
+                </div>
+            </div>
+        </section>
+        <section id="videos">
+            <div class="container">
+                <h2>Laptop Videos</h2>
+                <div class="video-grid">
+                    <div class="video">
+                        <h3>ThinkPad X1 Carbon Review</h3>
+                        <video controls>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/H71IxqmCfxQ?si=Rch-IT6Wog8pKLKH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>In-depth review of the ThinkPad X1 Carbon's features and performance.</p>
+                    </div>
+                    <div class="video">
+                        <h3>IdeaPad 3 Overview</h3>
+                        <video controls>
+                            <source src="https://youtu.be/umk49MNprCU?si=SLU9psA8OU_W5b-4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>An overview of the IdeaPad 3, highlighting its strengths and use cases.</p>
+                    </div>
+                    <!-- Add more videos as needed -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="container">
+            <p>Contact us at: <a href="mailto:info@laptopstore.com">info@laptopstore.com</a></p>
+            <p>&copy; 2024 Laptop Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
